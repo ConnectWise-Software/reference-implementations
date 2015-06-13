@@ -1,7 +1,7 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.master" AutoEventWireup="true" CodeFile="Dash.aspx.cs" 
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Default.master" AutoEventWireup="true" CodeFile="InstantReportNew.aspx.cs" 
   Inherits="DashboardsNew" %>
-<%@ Register Src="~/Resources/html/Dashboards-New-Head-Angular.ascx" TagName="ccn1" TagPrefix="ccp1" %>
-<%@ Register Src="~/Resources/html/Dashboards-New-Body-Angular.ascx" TagName="ccn2" TagPrefix="ccp2" %>
+<%@ Register Src="~/Resources/html/InstantReport-Head-Angular.ascx" TagName="ccn1" TagPrefix="ccp1" %>
+<%@ Register Src="~/Resources/html/InstantReport-Body-Angular.ascx" TagName="ccn2" TagPrefix="ccp2" %>
 
 <asp:Content ID="Content3" ContentPlaceHolderID="ChangeableHeader" runat="server">
   <link rel="stylesheet" type="text/css" href="./rs.aspx?css=ModernStyles.jquery-ui"/>
